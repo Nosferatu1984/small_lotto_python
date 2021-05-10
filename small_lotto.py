@@ -11,7 +11,7 @@ for i in range(3):
 		print("You guess it!")
 		break
 	elif i == 2:
-		print("I think about: ", liczba)
+		print("I think about: ", number)
 	else:
 		print("Its bad answer")
 

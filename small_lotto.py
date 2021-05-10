@@ -1,13 +1,13 @@
 import random
 import time
 
-liczba = random.randint(1, 10)
+number = random.randint(1, 10)
 
 for i in range(3):
 	print("Try ", i + 1)
 	odp = input("Try to guess number 0-10? ")
 
-	if liczba == int(odp):
+	if number == int(odp):
 		print("You guess it!")
 		break
 	elif i == 2:
